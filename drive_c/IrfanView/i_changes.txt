@@ -5,6 +5,29 @@ E-Mail: irfanview@gmx.net
 WWW   : http://www.irfanview.com
 -------------------------------------------------------------------------------
 
+Version 4.62		(Release date: 2022-12-09)
+- New PDF PlugIn (thanks to Pdfium guys)
+- Option to save slideshow as MP4 video (Thanks to Shao Voon Wong)
+- New options menu: Append current image to PDF (Options->Multipage images)
+- New options menu: Edit multipage PDF (Options->Multipage images)
+- New "Adobe 8BF filters" PlugIn (also for 64-bit 8BF, thanks to Sinisa Petric)
+- New in Advanced Batch dialog: All effects (Effects Browser dialog) can be used
+- New in Properties->Extensions dialog: Load only minimal (browsing) extensions
+- The selection rectangle can be resized on corners (with CTRL = proportional)
+- Change for "Paste into Selection": you can move/resize the selection
+  rectangle/image; click to apply selection image to main image
+- New option in "Compare images" dialog: Show difference image
+- New effect in Image->Effects menu: Skew/Shear image
+- New hotkey: CTRL + SHIFT + G: Start Google Maps with GPS of the loaded file
+- New command line option: /fs_exit
+  => if started in fullscreen mode; ESC closes fullscreen and IrfanView
+- Old/obsolete JPG options disabled: "Load as grayscale" and "Save as grayscale"
+  (easy to forget; can be re-enabled using new INI flags)
+- Removed very old PlugIn: FiltersUnlimited
+- Several PlugIns are changed/updated, please install the newest versions:
+  Download from: https://www.irfanview.com/plugins.htm
+-------------------------------------------------------------------------------
+
 Version 4.60		(Release date: 2022-03-18)
 - JPG save preview dialog: Options to zoom/scroll the preview image
 - New option in File menu: Compare current image with another image

@@ -10,6 +10,7 @@ List of all command line options supported in IrfanView:
 
   /one                  - force "Only one instance"
   /fs                   - force Full Screen display
+  /fs_exit              - force Full Screen display; ESC closes fullscreen and IrfanView
   /bf                   - force "Fit images to desktop" display option
   /title=text           - set window title to "text"
   /pos=(x,y)            - move IrfanView window to x,y (if display option allows that)
