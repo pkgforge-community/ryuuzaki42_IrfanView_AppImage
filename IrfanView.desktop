@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=IrfanView-4.60_x64
+Exec=IrfanView
+Terminal=false
+Type=Application
+StartupNotify=false
+Icon=ico
+StartupWMClass=IrfanView
+MimeType=application/x-rar:application/x-zip;application/x-compressed-rar:application/x-compressed-zip
+Categories=GTK;Archiving;Compression;Utility;
