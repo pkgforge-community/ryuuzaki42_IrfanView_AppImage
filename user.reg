@@ -207,13 +207,11 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced] 1665443124
 #time=1d8dcfcc74f693a
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\LastVisitedMRU] 1665443132
-#time=1d8dcfccc664b82
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\LastVisitedMRU] 1670669273
+#time=1d90c84db2bed5e
 "a"=hex:69,00,5f,00,76,00,69,00,65,00,77,00,36,00,34,00,2e,00,65,00,78,00,65,\
   00,00,00,48,00,3a,00,5c,00,44,00,6f,00,77,00,6e,00,6c,00,6f,00,61,00,64,00,\
-  73,00,5c,00,30,00,64,00,65,00,6c,00,5c,00,30,00,30,00,5c,00,69,00,76,00,5c,\
-  00,52,00,65,00,63,00,6f,00,72,00,74,00,65,00,73,00,5c,00,42,00,61,00,73,00,\
-  65,00,5f,00,41,00,00,00
+  73,00,5c,00,30,00,64,00,65,00,6c,00,00,00
 "MRUList"="a"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1665440339
@@ -236,23 +234,23 @@ WINE REGISTRY Version 2
 #time=1d8aed27c8714e6
 "Enable"="N"
 
-[Software\\Wine\\Fonts] 1665443628
-#time=1d8dcfdf3fda5ea
+[Software\\Wine\\Fonts] 1670669261
+#time=1d90c84d43316bc
 "Codepages"="1252,437"
 "LogPixels"=dword:00000090
 
-[Software\\Wine\\Fonts\\External Fonts] 1665442536
-#time=1d8dcfb68c7f4c8
-"@Microsoft Yahei (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\appimagetool\\squashfs-root\\share\\wine\\fonts\\msyh.ttf"
-"Arial (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\appimagetool\\squashfs-root\\share\\wine\\fonts\\arial.ttf"
-"Courier New (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\appimagetool\\squashfs-root\\share\\wine\\fonts\\cour.ttf"
-"Marlett (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\appimagetool\\squashfs-root\\share\\wine\\fonts\\marlett.ttf"
-"Microsoft Yahei (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\appimagetool\\squashfs-root\\share\\wine\\fonts\\msyh.ttf"
-"Symbol (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\appimagetool\\squashfs-root\\share\\wine\\fonts\\symbol.ttf"
-"Tahoma (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\appimagetool\\squashfs-root\\share\\wine\\fonts\\tahoma.ttf"
-"Tahoma Bold (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\appimagetool\\squashfs-root\\share\\wine\\fonts\\tahomabd.ttf"
-"Times New Roman (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\appimagetool\\squashfs-root\\share\\wine\\fonts\\times.ttf"
-"Wingdings (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\appimagetool\\squashfs-root\\share\\wine\\fonts\\wingding.ttf"
+[Software\\Wine\\Fonts\\External Fonts] 1670669124
+#time=1d90c8481ffff86
+"@Microsoft Yahei (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\msyh.ttf"
+"Arial (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\arial.ttf"
+"Courier New (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\cour.ttf"
+"Marlett (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\marlett.ttf"
+"Microsoft Yahei (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\msyh.ttf"
+"Symbol (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\symbol.ttf"
+"Tahoma (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\tahoma.ttf"
+"Tahoma Bold (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\tahomabd.ttf"
+"Times New Roman (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\times.ttf"
+"Wingdings (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\wingding.ttf"
 
 [Software\\WinRAR\\FileList\\FileColumnWidths] 1660367247
 #time=1d8aed294e60574
@@ -1110,16 +1108,16 @@ WINE REGISTRY Version 2
 "WaitForOther"=dword:00000000
 "WipeIfPassword"=dword:00000000
 
-[Volatile Environment] 1665440339
-#time=1d8dcf64bab061e
+[Volatile Environment] 1670669086
+#time=1d90c846bb5217a
 "APPDATA"="C:\\users\\j\\AppData\\Roaming"
 "CLIENTNAME"="Console"
 "HOMEDRIVE"="C:"
 "HOMEPATH"="\\users\\j"
 "HOMESHARE"=""
 "LOCALAPPDATA"="C:\\users\\j\\AppData\\Local"
-"LOGONSERVER"="\\\\WT"
+"LOGONSERVER"="\\\\WOSNIAK"
 "SESSIONNAME"="Console"
-"USERDOMAIN"="WT"
+"USERDOMAIN"="WOSNIAK"
 "USERNAME"="j"
 "USERPROFILE"="C:\\users\\j"
