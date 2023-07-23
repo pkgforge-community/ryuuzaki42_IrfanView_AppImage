@@ -14,10 +14,11 @@ Diretorio_do_executavel_windows='C:\\IrfanView\\'
 Arquivo_exe_executavel_windows='C:\\IrfanView\\i_view64.exe'
 Arquitetura_do_windows="win64" # win32 para windows 32bits (i386) ou win64 para windows de 64bits
 Dlls_para_desabilitar="d3d12.dll,winemenubuilder.exe,winemine.exe,winedbg.exe,progman.exe,reg.exe,regsvr32.exe,robocopy.exe,taskmgr.exe,uninstaller.exe,winecfg.exe,control.exe,appwiz.cpl,inetcpl.cpl,mscoree,mshtml,atiadlxx,nvapi64,nvapi"
+
 mkdir -p "$Prog_Dir_Config"
 
 function function_zenity_running() {
-    timeout 2 zenity --display="$DISPLAY" --width=400 --height=100 --progress --pulsate --no-cancel --title="$Zenity_Title" --text="<span size=\"xx-large\">Running $Prog_Name</span>\n\n" --icon-name="$Zenity_Icon_Name" --window-icon="$Prog_Icon" --auto-close
+    timeout 1 zenity --display="$DISPLAY" --width=400 --height=100 --progress --pulsate --no-cancel --title="$Zenity_Title" --text="<span size=\"xx-large\">Running $Prog_Name</span>\n" --icon-name="$Zenity_Icon_Name" --window-icon="$Prog_Icon" --auto-close
 }
 
 # Criar diretório para atalhos e Configurações
@@ -31,9 +32,11 @@ ln -s "$HERE/system.reg" "/$Prog_Dir/system.reg"
 ln -s "$HERE/user.reg" "/$Prog_Dir/user.reg"
 ln -s "$HERE/.update-timestamp" "/$Prog_Dir/.update-timestamp"
 
-find "$Prog_Dir/dosdevices/"* -maxdepth 1 -type l -ls -delete #comando deleta atalhos
-find "$Prog_Dir/drive_c/"* -maxdepth 1 -type l -ls -delete #comando deleta atalhos
-find "$Prog_Dir/drive_c/$Prog_Name/"* -maxdepth 1 -type l -ls -delete #comando deleta atalhos
+# Delete shortcuts
+find "$Prog_Dir/dosdevices/"* -maxdepth 1 -type l -ls -delete
+find "$Prog_Dir/drive_c/"* -maxdepth 1 -type l -ls -delete
+find "$Prog_Dir/drive_c/$Prog_Name/"* -maxdepth 1 -type l -ls -delete
+
 ln -s "/" "$Prog_Dir/dosdevices/z:"
 ln -s "$HOME" "$Prog_Dir/dosdevices/h:"
 ln -s "$Prog_Dir/drive_c" "$Prog_Dir/dosdevices/c:"
