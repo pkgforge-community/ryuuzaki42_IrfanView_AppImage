@@ -234,23 +234,13 @@ WINE REGISTRY Version 2
 #time=1d8aed27c8714e6
 "Enable"="N"
 
-[Software\\Wine\\Fonts] 1670669261
-#time=1d90c84d43316bc
+[Software\\Wine\\Fonts] 1690120837
+#time=1d9bd6e0e8dc646
 "Codepages"="1252,437"
 "LogPixels"=dword:00000090
 
-[Software\\Wine\\Fonts\\External Fonts] 1670669124
-#time=1d90c8481ffff86
-"@Microsoft Yahei (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\msyh.ttf"
-"Arial (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\arial.ttf"
-"Courier New (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\cour.ttf"
-"Marlett (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\marlett.ttf"
-"Microsoft Yahei (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\msyh.ttf"
-"Symbol (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\symbol.ttf"
-"Tahoma (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\tahoma.ttf"
-"Tahoma Bold (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\tahomabd.ttf"
-"Times New Roman (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\times.ttf"
-"Wingdings (TrueType)"="Z:\\media\\sda2\\os\\gnu_linux\\slackware15.0\\0imp\\0run\\squashfs-root\\share\\wine\\fonts\\wingding.ttf"
+[Software\\Wine\\Fonts\\External Fonts] 1690120837
+#time=1d9bd6e0e8e0fca
 
 [Software\\WinRAR\\FileList\\FileColumnWidths] 1660367247
 #time=1d8aed294e60574
