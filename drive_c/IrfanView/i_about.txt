@@ -14,7 +14,7 @@ IrfanView is fast and small, with very low system resources requirements.
 It is trying to be simple for beginners and powerful for professionals.
 
 Supported file formats:
-AIF, ANI/CUR, ASF, AU/SND, AVI, AWD, B3D, BLP, BMP/DIB, CAD formats (DXF/DWG),
+AIF, ANI/CUR, ASF, AU/SND, AVI, AVIF, AWD, B3D, BLP, BMP, CAD formats (DXF/DWG),
 CLP, DDS, Dicom/ACR, DJVU, DPX/CIN, ECW, EMF/WMF, EPS/PS/PDF/AI, EXR, FITS, 
 FLIF, FPX, G3, GIF, HDP/WDP, HEIC, AVIF, ICO/ICL/EXE/DLL, IFF/LBM, QOI,
 IMG (GEM), JLS, JPG2000, JPG, JPEG-XR, JPM, JXL, KDC, MED, MID/RMI, MNG/JNG,

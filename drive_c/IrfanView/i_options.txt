@@ -123,6 +123,7 @@ Example for conversion:
 Example for slideshow: 
   i_view32.exe /slideshow=c:\mypics.txt
   (Note: The file 'c:\mypics.txt' contains, in each line, a name of an image file, including the full path OR path relative to "i_view32.exe")
+  (You can use a custom time for each file, if you add "|time=your_value_in_milliseconds" after the filename)
   (Lines starting with ";" will be ignored and can be used as comment)
   i_view32.exe /slideshow=c:\mypics.txt /reloadonloop
   i_view32.exe /slideshow=c:\images\
@@ -232,6 +233,7 @@ Example for ini:
   i_view32.exe c:\test.jpg /ini="c:\temp\"
   i_view32.exe /ini
   i_view32.exe c:\test.jpg /ini
+  => NOTE: if folder is used: the INI filename MUST NOT be changed, it must be "i_view32.ini" for IrfanView 32 bit.
 
 Example for clipboard paste:
   i_view32.exe /clippaste

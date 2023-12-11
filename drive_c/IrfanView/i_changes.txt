@@ -5,12 +5,40 @@ E-Mail: irfanview@gmx.net
 WWW   : http://www.irfanview.com
 -------------------------------------------------------------------------------
 
+Version 4.65		(Release date: 2023-12-09)
+- Option for Dark mode: Properties->Viewing (works best with Windows 10+)
+  (thanks to Richard Yu, Stephen Eckels, adzm)
+- New option in Insert Text dialog: Text rotation (90 deg for vertical text)
+- New option in Slideshow dialog: Set different time for each file
+  (new button: "Change time" for selected files)
+- "Paste into Selection": Second paste (CTRL+V) will also apply the image
+- New option after "Paste in the selection":
+  SHIFT + Click within selection: Apply pasted image and keep selection
+- New Edit menu: Apply image effects to inverted selection (non-selected area)
+- New option in Properties->Editing: Set custom filename for pasted image
+- Option to read XMP data in the IPTC dialog (thanks to Lee Thomason)
+- New Histogram effects in Effects Browser dialog (thanks to Richard Heurtley)
+- Improved support for tabs in text in Insert Text dialog (CTRL + Tab)
+- New PlugIn for AVIF format
+- The Replace File dialog shows preview of both images
+- The Fine Rotation dialog can be resized
+- New in Fine Rotation dialog: draw a straight line to rotate
+- The Histogram dialog can be resized (Local dark mode using right button)
+- Slideshow/Automatic mode will suspend system sleep while running
+- Command line: "/append" will append all pages from the input file 
+  (if "/page" option is not used)
+- SVG PlugIn loading bugs fixed (thanks to NerTy)
+- JP2 PlugIn loading bug fixed (CVE-2023-26974, thanks to overXsky)
+- Several PlugIns are changed/updated, please install the newest versions:
+  Download from: https://www.irfanview.com/plugins.htm
+-------------------------------------------------------------------------------
+
 Version 4.62		(Release date: 2022-12-09)
 - New PDF PlugIn (thanks to Pdfium guys)
 - Option to save slideshow as MP4 video (Thanks to Shao Voon Wong)
 - New options menu: Append current image to PDF (Options->Multipage images)
 - New options menu: Edit multipage PDF (Options->Multipage images)
-- New "Adobe 8BF filters" PlugIn (also for 64-bit 8BF, thanks to Sinisa Petric)
+- New "Adobe 8BF filters" PlugIn (for 64-bit 8BF, thanks to Sinisa Petric)
 - New in Advanced Batch dialog: All effects (Effects Browser dialog) can be used
 - New in Properties->Extensions dialog: Load only minimal (browsing) extensions
 - The selection rectangle can be resized on corners (with CTRL = proportional)
