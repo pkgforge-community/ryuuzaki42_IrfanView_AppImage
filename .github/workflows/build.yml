@@ -27,7 +27,7 @@ jobs:
     - name: Make AppImage
       run: |
         set -x
-        rm -rv .git/ .github/ .gitignore
+        rm -rv .git/ .github/
 
         cd ../
         ARCH=x86_64 ./appimagetool-x86_64.AppImage IrfanView_AppImage/
