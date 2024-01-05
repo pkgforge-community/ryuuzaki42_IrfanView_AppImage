@@ -5,14 +5,21 @@ E-Mail: irfanview@gmx.net
 WWW   : http://www.irfanview.com
 -------------------------------------------------------------------------------
 
+Version 4.66		(Release date: 2023-12-20)
+- Fixed problem with network paths in Save-As dialog
+- Fix for text alignment in Insert Text dialog (selection/canvas)
+- SVG PlugIn loading bugs fixed (thanks to nerty_nerty)
+  Download from: https://www.irfanview.com/plugins.htm
+-------------------------------------------------------------------------------
+
 Version 4.65		(Release date: 2023-12-09)
-- Option for Dark mode: Properties->Viewing (works best with Windows 10+)
+- Option for Dark mode: Properties->Viewing (works best with Windows 10/11)
   (thanks to Richard Yu, Stephen Eckels, adzm)
 - New option in Insert Text dialog: Text rotation (90 deg for vertical text)
 - New option in Slideshow dialog: Set different time for each file
   (new button: "Change time" for selected files)
 - "Paste into Selection": Second paste (CTRL+V) will also apply the image
-- New option after "Paste in the selection":
+- New Hotkey after "Paste into selection":
   SHIFT + Click within selection: Apply pasted image and keep selection
 - New Edit menu: Apply image effects to inverted selection (non-selected area)
 - New option in Properties->Editing: Set custom filename for pasted image
@@ -27,7 +34,7 @@ Version 4.65		(Release date: 2023-12-09)
 - Slideshow/Automatic mode will suspend system sleep while running
 - Command line: "/append" will append all pages from the input file 
   (if "/page" option is not used)
-- SVG PlugIn loading bugs fixed (thanks to NerTy)
+- SVG PlugIn loading bugs fixed (thanks to nerty_nerty)
 - JP2 PlugIn loading bug fixed (CVE-2023-26974, thanks to overXsky)
 - Several PlugIns are changed/updated, please install the newest versions:
   Download from: https://www.irfanview.com/plugins.htm
