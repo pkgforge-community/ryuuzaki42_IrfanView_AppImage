@@ -5,10 +5,26 @@ E-Mail: irfanview@gmx.net
 WWW   : http://www.irfanview.com
 -------------------------------------------------------------------------------
 
+Version 4.67		(Release date: 2024-04-05)
+- Smaller fixes (Insert Text, Paste warning, Hex viewer, Auto adjust colors)
+- Separate overwrite option for Save/Save-As menus (Properties->File Handling)
+- The Insert Text dialog will remember the last screen position
+- New OCR PlugIn: requires Tesseract OCR (Properties->PlugIns)
+  See "i_plugins.txt" for infos (https://github.com/UB-Mannheim/tesseract/wiki)
+- Support for PNG comment (Image->Info dialog or $C placeholder; reading only)
+- SFF PlugIn loading bugs fixed (thanks to Mateusz "LeftarCode" Lewczak)
+- EXR PlugIn loading bugs fixed (thanks to Minji Kim and Jaehun of WHS WWW Team)
+- PSP PlugIn loading bug fixed (thanks to wangmy)
+- Loading issues in several PlugIns fixed (thanks to Trend Micro)
+  Fixed PlugIns: Formats, DPX/CIN, WSQ, MrSID, AWD
+- Several PlugIns are changed/updated, please install the newest versions:
+  Download from: https://www.irfanview.com/plugins.htm
+-------------------------------------------------------------------------------
+
 Version 4.66		(Release date: 2023-12-20)
 - Fixed problem with network paths in Save-As dialog
 - Fix for text alignment in Insert Text dialog (selection/canvas)
-- SVG PlugIn loading bugs fixed (thanks to nerty_nerty)
+- SVG PlugIn loading bugs fixed (thanks to nerty_nerty of WHS WWW Team)
   Download from: https://www.irfanview.com/plugins.htm
 -------------------------------------------------------------------------------
 
@@ -34,7 +50,7 @@ Version 4.65		(Release date: 2023-12-09)
 - Slideshow/Automatic mode will suspend system sleep while running
 - Command line: "/append" will append all pages from the input file 
   (if "/page" option is not used)
-- SVG PlugIn loading bugs fixed (thanks to nerty_nerty)
+- SVG PlugIn loading bugs fixed (thanks to nerty_nerty of WHS WWW Team)
 - JP2 PlugIn loading bug fixed (CVE-2023-26974, thanks to overXsky)
 - Several PlugIns are changed/updated, please install the newest versions:
   Download from: https://www.irfanview.com/plugins.htm
