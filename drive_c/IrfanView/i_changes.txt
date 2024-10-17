@@ -5,6 +5,28 @@ E-Mail: irfanview@gmx.net
 WWW   : http://www.irfanview.com
 -------------------------------------------------------------------------------
 
+Version 4.70		(Release date: 2024-10-11)
+- New option: Keep existing alpha/transparency color (Properties->Viewing)
+  Show checkerboard image; Alpha/Color also used for saving
+- New option in Increase Color Depth dialog: 32 BPP (with alpha layer)
+- New option in Replace Color dialog: Set transparent color (if 32 BPP image)
+- New Image menu: Edit or set alpha/transparency color
+- New option: Show Browse buttons in main window (Properties->Browsing)
+- Fine Rotation option can work on selections
+- New in OCR PlugIn: read QR or Barcode (thanks to ZXing guys)
+- New slideshow hotkey: SHIFT + "," (comma): Toggle random and automatic time
+- New Print dialog option: Reverse pages (for multipage images, page ranges)
+- Support for EXIF data in WEBP files (EXIF dialog)
+- Command line: "/effect" can be combined with "/slideshow", like:
+  i_view64.exe /slideshow=c:\mypics.txt /effect=(30,0,0)
+- Loading issues in several PlugIn fixed (thanks to Trend Micro)
+  (CADImage, Formats, CamRAW, DjVu, JPM, ECW, WSQ)
+- SVG PlugIn loading bugs fixed (thanks to nerty_nerty)
+- EXR PlugIn loading bugs fixed (thanks to leeho and Who4mI)
+- Several PlugIns are changed/updated, please install the newest versions:
+  Download from: https://www.irfanview.com/plugins.htm
+-------------------------------------------------------------------------------
+
 Version 4.67		(Release date: 2024-04-05)
 - Smaller fixes (Insert Text, Paste warning, Hex viewer, Auto adjust colors)
 - Separate overwrite option for Save/Save-As menus (Properties->File Handling)

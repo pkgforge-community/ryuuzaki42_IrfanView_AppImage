@@ -130,6 +130,8 @@ Example for slideshow:
   i_view32.exe /slideshow=c:\images\ /reloadonloop
   i_view32.exe /slideshow=c:\images\*.jpg
   i_view32.exe /slideshow=c:\images\test*.jpg
+  i_view32.exe /slideshow=c:\images\*.jpg /effect=(8,3,0)
+  i_view32.exe /slideshow=c:\mypics.txt /effect=(30,0,0)
   i_view32.exe /slideshow="c:\images\" /filepattern="*.jpg;*.gif;*.png" /reloadonloop
   Note: you have to close IrfanView after the last image from the TXT file, if no /closeslideshow is used.
 
