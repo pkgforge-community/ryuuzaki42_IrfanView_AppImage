@@ -33,12 +33,12 @@ jobs:
     - name: Make AppImage
       run: |
         set -x
-        version_IrfanView="0.4.26"
+        version_IrfanView="4.70"
         rm -rv .git/ .github/
 
         cd ../
         #ARCH=x86_64 ./appimagetool-x86_64.AppImage IrfanView_AppImage/
-        ARCH=x86_64 VERSION="${version_IrfanView}-1_JB" ./appimagetool-x86_64.AppImage squashfs-root/
+        ARCH=x86_64 VERSION="${version_IrfanView}-1_JB" ./appimagetool-x86_64.AppImage IrfanView_AppImage/
         pwd; ls -lah
 
         fileName=$(ls IrfanView*.AppImage)
