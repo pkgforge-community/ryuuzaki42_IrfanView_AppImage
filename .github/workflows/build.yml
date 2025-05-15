@@ -33,7 +33,7 @@ jobs:
     - name: Make AppImage
       run: |
         set -x
-        version_IrfanView="4.70"
+        version_IrfanView="4.72"
         rm -rv .git/ .github/
 
         cd ../
