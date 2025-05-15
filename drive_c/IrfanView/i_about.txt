@@ -27,12 +27,12 @@ SVG, WBC/WBZ, GLCD, many old formats (Atari, Amiga) etc.
 Some features of IrfanView:
 32 and 64 bit versions, full Unicode support, multi language support, Thumbnails, 
 Slideshow, fast directory browsing, batch conversion/editing, multipage editing,
-Export Slideshow as video, file search, email, print, change color depth,
-scanning, Paint plugin - to paint lines, circles, arrows, straighten image etc.,
-cut/crop, support for color profiles, OCR, IPTC edit, screen capturing,
+Dark mode support, support for alpha layer/transparent color, scanning, print,
+file search, Export Slideshow as video, change color depth, cut/crop, OCR,
+Paint plugin - to paint lines, circles, arrows, straighten image etc., email,
 lossless JPG operations, many effects (sharpen, blur, Adobe Photoshop filters),
-add watermark image, EXE/SCR creating, many (editable) hotkeys,
-many command line options, 60+ plugins.
+support for color profiles, IPTC edit, screen capturing, add watermark image, 
+EXE/SCR creating, many (editable) hotkeys, many command line options, 60+ plugins.
 
 IrfanView was the first Windows graphic viewer (worldwide) with Animated-GIF 
 support !

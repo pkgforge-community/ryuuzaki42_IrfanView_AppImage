@@ -78,6 +78,7 @@ List of all command line options supported in IrfanView:
   /import_pal=palfile   - import and apply a special palette to the image (PAL format)
   /export_pal=palfile   - export image palette to file (PAL format)
   /jpg_rotate=(options) - JPG lossless rotation, see examples below
+  /replacecolor=(options) - replace color (with options from dialog, see example below)
   /hotfolder="folder"   - start Hotfolder option with a specific folder
   /monitor=X            - start EXE-Slideshow on monitor X
   /window=(x,y,w,h)     - set EXE-Slideshow window position and size
@@ -92,7 +93,7 @@ Important notes:
   (hint for BAT files with relative paths: use the variable "%~dp0" to get the current path)
 - You can combine several options in one command
 - The commands will be processed in the order you write them
-- Wildcards supported only for: /convert, /multitif, /multipdf, /panorama, /print, /info /jpg_rotate and /extract
+- Wildcards supported only for: /convert, /multitif, /multipdf, /panorama, /print, /info /jpg_rotate and /extract /replacecolor
 - Do not set any other commands after /batchscan, /scan, /capture=5 or 6, they won't be processed
 - Maximal command line length is limited to 4096 chars: use Drag&Drop, /file or /filelist for very large lists
 - Most settings are loaded from the INI file. Using prepared INIs and /ini option, you can extend the possibilities.
@@ -400,6 +401,11 @@ Example for /advancedbatch:
   i_view32.exe c:\test.jpg /advancedbatch /convert=c:\image.jpg
   (some Misc. Advanced Batch options are not supported: overwrite, delete, subfolders, all pages)
   => Open 'c:\test.jpg', apply Advanced Batch options from the INI file and save as new file
+
+Example for replacecolor=(rOld,gOld,bOld,rNew,gNew,bNew,tolerance,transparency):
+  options from the Replace Color dialog
+  i_view32.exe c:\test.png /replacecolor=(255,0,0,0,255,0,0,0) /convert=c:\testNew.png
+  => Open 'c:\test.png', replace red with green and save as new file
 
 Example for /jpg_rotate=(options):
   options = 8 options from the JPG lossless dialog:

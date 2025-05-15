@@ -5,12 +5,37 @@ E-Mail: irfanview@gmx.net
 WWW   : http://www.irfanview.com
 -------------------------------------------------------------------------------
 
+Version 4.72		(Release date: 2025-05-12)
+- New option in Batch dialog: Use Multithreading for conversion
+  Note 1: Some old/third party PlugIns do NOT support multithreading!
+  Note 2: Save format options with a preview do NOT support multithreading!
+  Note 3: Multithreading uses (much) more system memory.
+- New Edit menu: Restore last selection
+- New zoom feature: CTRL + Middle mouse button click; Fit to window and back
+- New option in EXIF dialog: Choose tags for the display (in Context menu)
+- A confirmation dialog is shown for the wallpaper change menus
+- New effect in Image->Effects menu: Stained Glass (thanks to Mathias Westerdahl)
+- Add Border effects can work on selections
+- New Add Border effects: Broken lines/frame
+- New option in Export Tiles dialog: Add extra space to each tile
+- New hotkey: CTRL + F4 = remove current file from slideshow list
+- New command line option to replace color (like in dialog Replace Color)
+  /replacecolor=(rOld,gOld,bOld,rNew,gNew,bNew,tolerance,transparency)
+- New slideshow hotkeys (for timer slideshow): 
+  CTRL + SHIFT + "," (comma): Reduce timer by 0.5 sec
+  CTRL + SHIFT + "." (point): Increase timer by 0.5 sec
+- Support for more DNG subformats (LibRAW PlugIn, 64-bit only)
+- Loading issues in CADImage PlugIn fixed (thanks to Trend Micro)
+- Several PlugIns are changed/updated, please install the newest versions:
+  Download from: https://www.irfanview.com/plugins.htm
+-------------------------------------------------------------------------------
+
 Version 4.70		(Release date: 2024-10-11)
 - New option: Keep existing alpha/transparency color (Properties->Viewing)
   Show checkerboard image; Alpha/Color also used for saving
 - New option in Increase Color Depth dialog: 32 BPP (with alpha layer)
 - New option in Replace Color dialog: Set transparent color (if 32 BPP image)
-- New Image menu: Edit or set alpha/transparency color
+- New Image menu: Edit or Set alpha/transparency color
 - New option: Show Browse buttons in main window (Properties->Browsing)
 - Fine Rotation option can work on selections
 - New in OCR PlugIn: read QR or Barcode (thanks to ZXing guys)
@@ -19,8 +44,8 @@ Version 4.70		(Release date: 2024-10-11)
 - Support for EXIF data in WEBP files (EXIF dialog)
 - Command line: "/effect" can be combined with "/slideshow", like:
   i_view64.exe /slideshow=c:\mypics.txt /effect=(30,0,0)
-- Loading issues in several PlugIn fixed (thanks to Trend Micro)
-  (CADImage, Formats, CamRAW, DjVu, JPM, ECW, WSQ)
+- Loading issues in several PlugIns fixed (thanks to Trend Micro)
+  (CADImage, Formats, CamRAW, DjVu, JPM, ECW, WSQ; all CVE-2024-xxxx)
 - SVG PlugIn loading bugs fixed (thanks to nerty_nerty)
 - EXR PlugIn loading bugs fixed (thanks to leeho and Who4mI)
 - Several PlugIns are changed/updated, please install the newest versions:
