@@ -408,15 +408,16 @@ Example for replacecolor=(rOld,gOld,bOld,rNew,gNew,bNew,tolerance,transparency):
   => Open 'c:\test.png', replace red with green and save as new file
 
 Example for /jpg_rotate=(options):
-  options = 8 options from the JPG lossless dialog:
-  transformation, optimize, EXIF date, current date, set DPI, DPI value, marker option, custom markers
+  options = 12 options from the JPG lossless dialog:
+  transformation, optimize, EXIF date, current date, set DPI, DPI value, marker option, custom markers, 
+  update EXIF thumb, perfect, progressive, write JFIF marker
   Note: this option will overwrite the original file(s)!
   Values:
   Transformation   : None (0), Vertical (1) ... Auto rotate (6)
   Optimize         : 0 or 1
   Set EXIF date    : 0 or 1
   Keep current date: 0 or 1
-  Set DPI          : 0 or 1
+  Set DPI          : 0 or 1 (sets also the "Write JFIF marker" to 1)
   DPI value        : number
   Marker option    : Keep all (0), Clean all (1), Custom (2)
   Custom markers values (can be combined (add values)):
@@ -424,11 +425,15 @@ Example for /jpg_rotate=(options):
     Keep EXIF    2
     Keep IPTC    4
     Keep others  8
-  i_view32.exe c:\test.jpg /jpg_rotate=(6,1,1,0,1,300,0,0) /cmdexit
-  => Auto rotate, optimize, set EXIF date as file date, set DPI to 300, keep all markers
-  i_view32.exe c:\test.jpg /jpg_rotate=(6,1,1,0,0,0,2,6) /cmdexit
-  => Auto rotate, optimize, set EXIF date as file date, keep EXIF and IPTC markers
-  i_view32.exe c:\test.jpg /jpg_rotate=(3,1,0,1,0,0,1,0) /cmdexit
+  Update EXIF thumb : 0 or 1
+  Perfect transform : 0 or 1
+  Progressive       : 0 or 1
+  Write JFIF marker : 0 or 1 ("Set DPI" will enable it too)
+  i_view32.exe c:\test.jpg /jpg_rotate=(6,1,1,0,1,300,0,0,0,0,1,0) /cmdexit
+  => Auto rotate, optimize, set EXIF date as file date, set DPI to 300, keep all markers, progressive
+  i_view32.exe c:\test.jpg /jpg_rotate=(6,1,1,0,0,0,2,6,0,0,0,1) /cmdexit
+  => Auto rotate, optimize, set EXIF date as file date, keep EXIF and IPTC markers, write JFIF marker
+  i_view32.exe c:\test.jpg /jpg_rotate=(3,1,0,1,0,0,1,0,0,0,0,0) /cmdexit
   => Rotate 90, optimize, use current file date, clean all markers
-  i_view32.exe c:\images\*.jpg /jpg_rotate=(6,1,1,0,0,0,0,0) /cmdexit
+  i_view32.exe c:\images\*.jpg /jpg_rotate=(6,1,1,0,0,0,0,0,0,0,0,0) /cmdexit
   => For all JPGs: Auto rotate, optimize, set EXIF date as file date, keep all markers

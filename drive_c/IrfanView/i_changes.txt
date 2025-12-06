@@ -5,13 +5,31 @@ E-Mail: irfanview@gmx.net
 WWW   : http://www.irfanview.com
 -------------------------------------------------------------------------------
 
+Version 4.73		(Release date: 2025-11-13)
+- IrfanView 64-bit for ARM is available: https://www.irfanview.com/arm64.htm
+- New File menu: Open Recent Saved Files
+- New Edit menu: Set selection shape: Round shape (circle/ellipse)
+- New Edit menu: Crop visible image area (if scrollbars visible)
+- New Wallpaper menu: Span (image over all monitors)
+- New option in Edit/Set Alpha Color dialog: Use color tolerance value
+- New selection hotkey: ALT + Left mouse button on sides: Centered resize
+- New option in custom rectangle capture mode: CTRL + click
+  (to copy values to Capture dialog option 7, fixed rectangle)
+- New command line options for /jpg_rotate (4 new options, see "i_options.txt")
+- New hotkey: CTRL + SHIFT + O: Copy image/mouse coordinate to clipboard
+- Improved Unicode support in JPG Comment dialog (Thanks to Adrie Koolen)
+- Loading issue in WSQ PlugIn fixed (thanks to "Vulnerable Potatoes")
+- Several PlugIns are changed/updated, please install the newest versions:
+  Download from: https://www.irfanview.com/plugins.htm
+-------------------------------------------------------------------------------
+
 Version 4.72		(Release date: 2025-05-12)
 - New option in Batch dialog: Use Multithreading for conversion
   Note 1: Some old/third party PlugIns do NOT support multithreading!
   Note 2: Save format options with a preview do NOT support multithreading!
   Note 3: Multithreading uses (much) more system memory.
 - New Edit menu: Restore last selection
-- New zoom feature: CTRL + Middle mouse button click; Fit to window and back
+- New zoom feature: CTRL + Middle mouse button click: Fit to window and back
 - New option in EXIF dialog: Choose tags for the display (in Context menu)
 - A confirmation dialog is shown for the wallpaper change menus
 - New effect in Image->Effects menu: Stained Glass (thanks to Mathias Westerdahl)
@@ -24,7 +42,7 @@ Version 4.72		(Release date: 2025-05-12)
 - New slideshow hotkeys (for timer slideshow): 
   CTRL + SHIFT + "," (comma): Reduce timer by 0.5 sec
   CTRL + SHIFT + "." (point): Increase timer by 0.5 sec
-- Support for more DNG subformats (LibRAW PlugIn, 64-bit only)
+- Support for more DNG subformats (CamRAW PlugIn, 64-bit only)
 - Loading issues in CADImage PlugIn fixed (thanks to Trend Micro)
 - Several PlugIns are changed/updated, please install the newest versions:
   Download from: https://www.irfanview.com/plugins.htm
