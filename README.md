@@ -1,11 +1,11 @@
 
 # IrfanView_AppImage
 
-## Repository: https://github.com/ryuuzaki42/IrfanView_AppImage
-
-## Remove the git folder (.git/) before creating the AppImage
+IrfanView is an image viewer, editor, organizer and converter.
 
 https://www.irfanview.com/
+
+## Repository: https://github.com/ryuuzaki42/IrfanView_AppImage
 
 ---
 ### To change font size, change the DPI value in LogPixels.
