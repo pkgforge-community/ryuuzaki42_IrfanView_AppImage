@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v6
     - name: Install fuse and libfuse2
       run: sudo apt install fuse libfuse2
 
@@ -48,12 +48,13 @@ jobs:
         pwd; ls -lah
         mv IrfanView*.AppImage IrfanView*.zsync IrfanView*.md5 IrfanView_AppImage/
 
-    - uses: xresloader/upload-to-github-release@main
+    - uses: xresloader/upload-to-github-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         file: "IrfanView*.AppImage; IrfanView*.zsync; IrfanView*.md5"
-        release_id: ${{ steps.create_release.outputs.id }}
+        #overwrite: true
         verbose: true
+        tags: true
         draft: false
         default_release_name: "IrfanView V in AppImage"
