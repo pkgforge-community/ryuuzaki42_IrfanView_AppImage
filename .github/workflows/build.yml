@@ -55,6 +55,5 @@ jobs:
         file: "IrfanView*.AppImage; IrfanView*.zsync; IrfanView*.md5"
         #overwrite: true
         verbose: true
-        tags: true
         draft: false
         default_release_name: "IrfanView V in AppImage"
