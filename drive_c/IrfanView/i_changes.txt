@@ -5,6 +5,21 @@ E-Mail: irfanview@gmx.net
 WWW   : http://www.irfanview.com
 -------------------------------------------------------------------------------
 
+Version 4.75		(Release date: 2026-05-15)
+- Many new transition effects for Fullscreen/Slideshow mode (Properties->FS)
+- New feature in Slideshow dialog: Set custom text for input files
+- New effect in Effects Browser dialog: Blinds
+- New option in Paint dialog: Draw rectangle with round corners
+- Paint dialog: Drawing with right mouse button (Line, Arrow, Rect, Ellipse)
+- Color controls in dialogs can use right mouse click to copy/paste the color
+- New option in Edit Palette dialog: Use CTRL to select/edit multiple colors
+- Option to disable FS/Slideshow exit with non-used keys (Properties->Misc)
+- New hotkeys: Num-Pad numbers 1-9 = scroll image to edges (5 = center)
+- Support for EXIF data in PNG files (EXIF dialog, "eXIf" chunk)
+- Several PlugIns are changed/updated, please install the newest versions:
+  Download from: https://www.irfanview.com/plugins.htm
+-------------------------------------------------------------------------------
+
 Version 4.73		(Release date: 2025-11-13)
 - IrfanView 64-bit for ARM is available: https://www.irfanview.com/arm64.htm
 - New File menu: Open Recent Saved Files

@@ -53,7 +53,7 @@ Normal PlugIns:
                       Windows XP or later required, Nero option can burn Data DVD and VCD.
 
 * 8. CAMRAW.DLL - This PlugIn allows IrfanView to read Digital Camera RAW files (thanks to Alex Tutubalin).
-                  (ARW CR3 CR2 CRW DCR DNG ERF KDC MRW NEF NRW ORF PEF RAF RAW RW2 RWL SRF SRW X3F MOS)
+                  (ARW CR3 CR2 CRW DCR DNG ERF KDC MRW NEF NRW ORF PEF RAF RAW RW2 RWL SRF SRW MOS)
 
 * 9. CRW.DLL - This (32 bit) PlugIn allows IrfanView to read Canon CRW/CR2 files using Canon DLLs.
                Note: this PlugIn requires additional Canon DLLs: http://irfanview.info/plugins/canon_crw.zip
@@ -100,6 +100,7 @@ Normal PlugIns:
 
 * 23. FORMATS.DLL - This PlugIn allows IrfanView to read additional image formats, like: 
                   - PCX/DCX - Zsoft Paintbrush
+                  - ANI - Animated Windows cursor
                   - PSP - Paint Shop Pro format
                   - IFF/LBM format (Amiga Interchange File Format)
                   - G3 Fax, CLP, RAS/SUN, SGI, GEM-IMG, Mosaic, YUV, XBM, XPM, GLCD, MPO format

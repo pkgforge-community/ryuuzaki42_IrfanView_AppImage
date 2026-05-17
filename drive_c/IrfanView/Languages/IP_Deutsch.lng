@@ -26,10 +26,10 @@ TargetVersion=0.4.13.*
 2004=Das "Klonen-Werkzeug" kopiert ein Areal des Bildes an eine andere Stelle, um z.B. Kratzer und Staub vom Foto zu entfernen.\nKlicke mit der rechten Maustaste ins Bild, um den Ursprungspunkt festzulegen und mit der linken Taste dorthin, wohin man dieses Areal kopiert haben möchte.
 2005=Das "Farbe vertauschen" ist selbsterklärend.\nBeim Malen mit der linken Maustaste wird die Hintergrund- mit der Vordergrundfarbe vertauscht, bei der rechten Maustaste die\nVordergrund- mit der Hintergrundfarbe.
 2006=Das "Text-Werkzeug" fügt einen formatierten Text ins Bild ein.\nDas Einfügekreuz ist die Basislinie des Textes.\nDer Text kann links- oder rechtsbündig oder auch mittig platziert werden.
-2007=Das "Linien-Werkzeug" zeichnet gerade Linien.\nKlicke und ziehe, um die Richtung der Linie zu bestimmen.\nDann loslassen, um die Linie endgültig abzulegen.\nUm während des Zeichnens abzubrechen, einfach die rechte Maustaste drücken.\nSTRG gedrückt halten, um die Linie mittig vom Ausgangspunkt aufzubauen und SHIFT, wenn man die Linie in 45°-Winkeln\nanordnen möchte.
-2008=Das "Pfeil-Werkzeug" zeichnet Pfeillinien.\nKlicke und ziehe, um die Richtung zu bestimmen.\nDann loslassen, um den Pfeil endgültig abzulegen.\nUm während des Zeichnens abzubrechen, einfach die rechte Maustaste drücken.\nSTRG gedrückt halten, um die Linie mittig vom Ausgangspunkt aufzubauen und SHIFT, wenn man die Linie in 45°-Winkeln\nanordnen möchte.\nRechte Maustaste auf diese Schaltfläche öffnet den Eingabedialog für die Pfeilspitzen.
-2009=Das "Ellipse-Werkzeug" zeichnet Kreise und Ellipsen. Wenn die Füllen-Schaltfläche unterhalb der Farbpalette gedrückt ist, werden die Formen gefüllt, ansonsten nur umrandet dargestellt.\nKlicke und ziehe, um die Richtung der Ellipse zu bestimmen, dann loslassen, um sie endgültig zu zeichnen.\nUm während des Zeichnens abzubrechen, einfach die rechte Maustaste drücken.\nSTRG gedrückt halten, um die Form mittig vom Ausgangspunkt aufzubauen und SHIFT, um einen Kreis zu zeichnen.\nSie können den Wert für die Transparenz in den Stift-Einstellungen setzen (Hintergrund).
-2010=Das "Rechteck-Werkzeug" zeichnet Quadrate und Rechtecke. Wenn die Füllen-Schaltfläche unterhalb der Farbpalette gedrückt ist, werden die Formen gefüllt, ansonsten nur umrandet dargestellt.\nKlicke und ziehe, um die Richtung des Rechtecks zu bestimmen, dann loslassen, um es endgültig zu zeichnen.\nUm während des Zeichnens abzubrechen, einfach die rechte Maustaste drücken.\nSTRG gedrückt halten, um die Form mittig vom Ausgangspunkt aufzubauen und SHIFT, um ein Quadrat zu zeichnen.\nSie können den Wert für die Transparenz in den Stift-Einstellungen setzen (Hintergrund).
+2007=Das "Linien-Werkzeug" zeichnet gerade Linien.\nKlicke und ziehe, um die Richtung der Linie zu bestimmen.\nDann loslassen, um die Linie endgültig abzulegen.\nMit der rechten Maustaste wird mit der Hintergrundfarbe gemalt.\nSTRG gedrückt halten, um die Linie mittig vom Ausgangspunkt aufzubauen und SHIFT, wenn man die Linie in 45°-Winkeln\nanordnen möchte.
+2008=Das "Pfeil-Werkzeug" zeichnet Pfeillinien.\nKlicke und ziehe, um die Richtung zu bestimmen.\nDann loslassen, um den Pfeil endgültig abzulegen.\nMit der rechten Maustaste wird mit der Hintergrundfarbe gemalt.\nSTRG gedrückt halten, um die Linie mittig vom Ausgangspunkt aufzubauen und SHIFT, wenn man die Linie in 45°-Winkeln\nanordnen möchte.\nRechte Maustaste auf diese Schaltfläche öffnet den Eingabedialog für die Pfeilspitzen.
+2009=Das "Ellipse-Werkzeug" zeichnet Kreise und Ellipsen. Wenn die Füllen-Schaltfläche unterhalb der Farbpalette gedrückt ist, werden die Formen gefüllt, ansonsten nur umrandet dargestellt.\nKlicke und ziehe, um die Richtung der Ellipse zu bestimmen, dann loslassen, um sie endgültig zu zeichnen.\nMit der rechten Maustaste wird mit der Hintergrundfarbe gemalt.\nSTRG gedrückt halten, um die Form mittig vom Ausgangspunkt aufzubauen und SHIFT, um einen Kreis zu zeichnen.\nSie können den Wert für die Transparenz in den Stift-Einstellungen setzen (Hintergrund).
+2010=Das "Rechteck-Werkzeug" zeichnet Quadrate und Rechtecke. Wenn die Füllen-Schaltfläche unterhalb der Farbpalette gedrückt ist, werden die Formen gefüllt, ansonsten nur umrandet dargestellt.\nKlicke und ziehe, um die Richtung des Rechtecks zu bestimmen, dann loslassen, um es endgültig zu zeichnen.\nMit der rechten Maustaste wird mit der Hintergrundfarbe gemalt.\nSTRG gedrückt halten, um die Form mittig vom Ausgangspunkt aufzubauen und SHIFT, um ein Quadrat zu zeichnen.\nSie können den Wert für die Transparenz in den Stift-Einstellungen setzen (Hintergrund).
 2011=Das "Füllen-Werkzeug" dient zum Füllen einer Fläche mit einer bestimmten Farbe.\nMit der linken Maustaste füllt man mit der Vordergrund-\nund mit der rechten Maustaste mit der Hintergrundfarbe.
 2012=Der "Farbaufnehmer" dient dazu, eine Farbe eines Pixels aktuell zu machen.\nFür die Vordergrundfarbe bitte ein Pixel mit der linken Maustaste wählen, das gleiche gilt für die rechte Maustaste\nund der Hintergrundfarbe.\nBei gedrückter SHIFT-Taste auf diese Schaltfläche klicken, um das automatische Wechseln zum vorherigen Werkzeug zu unterbinden.
 2013=Das "Begradigen/Drehen-Werkzeug" dient z.B. zum Ausrichten\neines Bildes.\nKlicke und ziehe eine Linie, an der sich das Bild gerade horizontal oder vertikal ausrichten soll.\nUm während des Zeichnens abzubrechen, einfach die rechte Maustaste drücken.\nSTRG gedrückt halten, um die Linie mittig vom Ausgangspunkt aufzubauen und SHIFT, wenn man die Linie in 45°-Winkeln\nanordnen möchte.
@@ -57,6 +57,8 @@ TargetVersion=0.4.13.*
 7012=Pixel
 7013=Grad
 7014=Millimeter
+7020=Farbe in die Zwischenablage kopieren
+7021=Farbe aus der Zwischenablage einfügen
 5000=Fehler
 [101]
 0=Über IrfanPaint
@@ -124,6 +126,7 @@ TargetVersion=0.4.13.*
 1429=spc=1 px. spc.\r\n.=1 px. Linie
 1431=Klicke auf "Voransicht" um Vorder- und Hintergrundeinst. zu tauschen.
 1453=Transparenz für Rechteck/Ellipse:
+1454=Zeichne Rechteck mit runden Ecken
 [105]
 0=Füge Text ein
 1501=Schriftart-&Name:
