@@ -187,6 +187,8 @@ Example for print:
   => Open 'c:\test.jpg', print the image to default printer and close IrfanView
   i_view32.exe c:\test.jpg /print="Printer Name"
   => Open 'c:\test.jpg', print the image to specific printer and close IrfanView
+  i_view32.exe /ini="c:\print_tray1\" c:\test.jpg /print
+  => Open 'c:\test.jpg', print the image using prepared INI settings and close IrfanView
   i_view32.exe c:\*.jpg /print
   => Print all JPGs from "C:\" and close IrfanView
   Note: the current settings from the INI file are used.
