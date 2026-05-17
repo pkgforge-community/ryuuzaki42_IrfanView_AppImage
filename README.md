@@ -6,6 +6,7 @@ IrfanView is an image viewer, editor, organizer and converter
 https://www.irfanview.com/
 
 ## Repository: https://github.com/ryuuzaki42/IrfanView_AppImage
+    IrfanView: 4.75
 
 ---
 ### To change font size, change the DPI value in LogPixels
